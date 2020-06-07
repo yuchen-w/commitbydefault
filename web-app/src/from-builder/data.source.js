@@ -97,35 +97,41 @@ export const Nav00DataSource = {
   },
   mobileMenu: { className: 'header0-mobile-menu' },
 };
-export const Banner00DataSource = {
-  wrapper: { className: 'banner0' },
-  textWrapper: { className: 'banner0-text-wrapper' },
-  title: {
-    className: 'banner0-title kax6d7t2rmh-editor_css',
-    children: (
-      <span>
-        <p>
-          Hi! I'm Yuchen<br />
-        </p>
-      </span>
-    ),
+export const Banner20DataSource = {
+  wrapper: { className: 'banner2' },
+  BannerAnim: {
+    children: [
+      {
+        name: 'elem0',
+        BannerElement: { className: 'banner-user-elem' },
+        page: { className: 'home-page banner2-page' },
+        textWrapper: { className: 'banner2-text-wrapper' },
+        bg: { className: 'bg bg0' },
+        title: {
+          className: 'banner2-title',
+          children: (
+            <span>
+              <p>
+                Hi! I'm Yuchen<br />
+              </p>
+            </span>
+          ),
+        },
+        content: {
+          className: 'banner2-content',
+          children: (
+            <span>
+              <p>
+                I am a professional full stack developer, hobbyist photographer
+                and general technology enthusiast
+              </p>
+            </span>
+          ),
+        },
+        button: { className: 'banner2-button', children: 'Learn More' },
+      },
+    ],
   },
-  content: {
-    className: 'banner0-content',
-    children: (
-      <span>
-        <span>
-          <span>
-            <p>
-              I am a professional full stack developer, hobbyist photographer
-              and general technology enthusiast<br />
-            </p>
-          </span>
-        </span>
-      </span>
-    ),
-  },
-  button: { className: 'banner0-button', children: 'Learn More' },
 };
 export const Content30DataSource = {
   wrapper: { className: 'home-page-wrapper content3-wrapper' },
@@ -624,7 +630,7 @@ export const Teams20DataSource = {
         children: (
           <span>
             <p>
-              My hobbies and side projects<br />
+              Cool stuff that I've been involved in<br />
             </p>
           </span>
         ),

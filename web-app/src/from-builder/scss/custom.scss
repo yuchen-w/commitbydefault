@@ -19,11 +19,11 @@ $animate-duration: .45s;
 
 /* 详细页图片或框框的样式;
 */
-@mixin page-shadow(){
+@mixin page-shadow() {
   box-shadow: 0 5px 8px $shadow-color;
 }
 
-@mixin page-pro(){
+@mixin page-pro() {
   border-radius: 6px;
   border: 1px solid $line-color;
   transform: translateY(0);

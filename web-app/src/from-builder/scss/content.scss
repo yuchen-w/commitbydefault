@@ -1,10 +1,10 @@
 $homepage: home-page;
 $text-color: black;
-.home-page-wrapper {
+.#{$homepage}-wrapper {
   width: 100%;
   position: relative;
   overflow: hidden;
-  .home-page {
+  .#{$homepage} {
     height: 100%;
     max-width: 1200px;
     position: relative;
@@ -22,13 +22,13 @@ $text-color: black;
   }
 }
 
-.home-page {
+.#{$homepage} {
   padding: 128px 24px;
 }
 
 @media screen and (max-width: 767px) {
-  .home-page-wrapper {
-    .home-page {
+  .#{$homepage}-wrapper {
+    .#{$homepage} {
       padding: 56px 24px;
       >h1 {
         font-size: 24px;
