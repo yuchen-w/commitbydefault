@@ -1,9 +1,9 @@
 import React, { FC } from "react";
-import { Layout, Menu, Breadcrumb } from "antd";
+// import { Layout, Menu, Breadcrumb } from "antd";
 import "./App.css";
 import Home from "./from-builder";
 
-const { Header, Content, Footer } = Layout;
+// const { Header, Content, Footer } = Layout;
 
 const App: FC = () => {
 	return (
