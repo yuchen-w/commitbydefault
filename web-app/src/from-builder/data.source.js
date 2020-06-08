@@ -112,8 +112,7 @@ export const Banner20DataSource = {
               </p>
             </span>
           ),
-        },
-        button: { className: 'banner2-button', children: 'Learn More' },
+        },        
       },
     ],
   },
