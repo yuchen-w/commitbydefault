@@ -65,9 +65,9 @@ class Banner extends React.PureComponent {
               <div key="content" {...content}>
                 {content.children}
               </div>
-              <Button type="ghost" key="button" {...button}>
+              {/* <Button type="ghost" key="button" {...button}>
                 {button.children}
-              </Button>
+              </Button> */}
             </QueueAnim>
           </div>
         </Element>
