@@ -23,7 +23,7 @@ export const Nav00DataSource = {
         className: 'header0-item',
         children: {
           href: '#',
-          children: [{ children: 'Blog', name: 'text' }],
+          children: [{ children: 'Blog (Coming soon)', name: 'text' }],
         },
         subItem: [
           {
@@ -182,7 +182,7 @@ export const Content30DataSource = {
           content: {
             className: 'content3-content',
             children:
-              'I\'m proficient in writing backend services using C#',
+              'I am proficient in writing backend services in C#',
           },
         },
       },
@@ -211,7 +211,7 @@ export const Content30DataSource = {
           content: {
             className: 'content3-content',
             children:
-              'I enjoy writing web front ends using TS',
+              'I prefer to build frontend code using TS where possible',
           },
         },
       },
@@ -267,7 +267,7 @@ export const Content30DataSource = {
           content: {
             className: 'content3-content',
             children:
-              'My preferred front end framework for building web apps. Currently I\'m using version 16.x with hooks.',
+              'My preferred frontend framework for building web apps. Currently using version 16.x with hooks on a near daily basis.',
           },
         },
       },
@@ -323,7 +323,7 @@ export const Content30DataSource = {
           content: {
             className: 'content3-content',
             children:
-              'I\'m using Redux-Observables and RX.Net',
+              'Redux-Observables to handle asynchronous operations in React + Redux and RX.Net to handle all asynchronous operations in the backend',
           },
         },
       },
@@ -415,7 +415,7 @@ export const Content90DataSource = {
           },
           content: { className: 'block-content', children: (<span>
                 <p>
-                  I sit on the trading floor, and build analytical tools for Traders. But I also wear many hats and remain very involved in all aspects of the SDLC for all of the apps we develop in London. <br />
+                  I sit on the trading floor and build analytical tools for Traders. But I also wear many hats and remain very involved in all aspects of the SDLC for all of the apps we develop in London. <br />
                 </p>
               </span>) },
         },
@@ -718,7 +718,7 @@ export const Teams20DataSource = {
               children: (
                 <span>
                   <p>
-                    This blog was built in TypeScript and hosted on GitHub<br />
+                    This blog was built using TypeScript + React and Ant Design. Hosted on GitHub<br />
                   </p>
                 </span>
               ),
