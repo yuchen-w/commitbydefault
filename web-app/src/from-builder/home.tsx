@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 import Nav0 from "./Nav0";
 import Banner2 from "./Banner2";
@@ -17,22 +17,23 @@ import {
 } from "./data.source";
 import "./scss/antMotionStyle.scss";
 
-// eslint-disable-next-line no-restricted-globals
-const defaultIsMobile = screen.width <= 768;
-
 export const Home = () => {
-	const [isMobile, setIsMobile] = useState(defaultIsMobile);
+	const [isMobile, setIsMobile] = useState(false)
 
-	window.addEventListener("resize", () => {
-		// eslint-disable-next-line no-restricted-globals
-		if (screen.width <= 768 && !isMobile) {
-			setIsMobile(true);
-		}
-		// eslint-disable-next-line no-restricted-globals
-		if (screen.width > 768 && isMobile) {
-			setIsMobile(false);
-		}
-	});
+	const displayMobileFunction = () => {    	  
+	  if (document.documentElement.clientWidth <= 768 && !isMobile) {
+		setIsMobile(true)
+	  }
+	  
+	  if (document.documentElement.clientWidth > 768 && isMobile) {
+		setIsMobile(false)
+	  }
+	}
+  
+	useEffect(() => {    
+	  window.addEventListener("resize", displayMobileFunction)
+	  return () => window.removeEventListener("resize", displayMobileFunction)
+	})
 
 	const children = [
 		<Nav0
