@@ -23,7 +23,7 @@ export const Nav00DataSource = {
         className: 'header0-item',
         children: {
           href: '/blog',
-          children: [{ children: 'Blog (Coming soon)', name: 'text' }],
+          children: [{ children: 'Blog', name: 'text' }],
         },        
       },      
     ],
